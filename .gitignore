@@ -1,0 +1,11 @@
+node_modules
+__pycache__
+.parcel-cache
+.vscode
+.env
+.tool-versions
+.ipynb_checkpoints
+*.log
+
+build
+stuff

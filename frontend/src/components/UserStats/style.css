@@ -1,0 +1,64 @@
+.wrapper {
+  overflow: hidden;
+  padding: 0 24px 0;
+  height: 100%;
+  background-color: #eee;
+  box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
+}
+
+.header {
+  display: flex;
+  padding: 12px 0;
+  align-items: first baseline;
+}
+
+.header h2 {
+  font-size: 1em;
+  font-weight: 600;
+  display: inline-block;
+  margin: 0;
+}
+
+.header svg {
+  margin-left: auto;
+}
+
+.widgetWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.widget {
+  flex: 1 0 250px;
+  height: 260px;
+  background: white;
+  box-shadow: 0 0 4px 1px rgba(120,120,120,0.25);
+}
+
+.widgetContainer {
+  text-align: center;
+}
+
+.widgetHeader h3 {
+  margin: 12px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.metaWrapper {
+  margin-left: 16px;
+  font-size: 0.8em;
+  vertical-align: baseline;
+}
+
+.metaText {
+  color: #777;
+}
+
+.metaValue {
+  margin-left: 4px;
+}

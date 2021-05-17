@@ -1,0 +1,215 @@
+.sidebar {
+  grid-area: sidebar;
+  padding: 12px 0 0 8px;
+  font-size: 12px;
+  background: #242d36;
+  color: white;
+  z-index: 2;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: calc(100vh - 56px);
+}
+
+.mainArea {
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(204, 204, 204, 0.75) #242d36;
+}
+
+.mainArea::-webkit-scrollbar {
+  width: 8px;
+}
+
+.mainArea::-webkit-scrollbar-track {
+  background: #242d36;
+}
+
+.mainArea::-webkit-scrollbar-thumb {
+  background-color: rgba(204, 204, 204, 0.75);
+  border-radius: 0;
+  border: 1px solid #242d36;
+}
+
+.buttonArea {
+  padding: 12px;
+}
+
+.buttonAreaButtons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonAreaButtons button svg {
+  margin-right: 8px;
+}
+
+.sidebar label {
+  display: block;
+}
+
+.sidebar .labelWithInput {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.sidebar label + label {
+  margin-top: 4px;
+}
+
+.sidebar input[type=number] {
+  width: 96px;
+}
+
+.inputWithButton {
+  position: relative;
+}
+
+.inputWithButton button {
+  position: absolute;
+  padding: 3px 6px;
+  top: 2px;
+  left: 14px;
+  background: none;
+  border: 0;
+}
+
+.inputWithButton button:hover {
+  background: rgba(255,255,255,0.25);
+}
+
+.sidebarSection {
+  padding: 0 12px;
+}
+
+.sidebarSectionContent {
+  padding: 0 0 16px 0;
+}
+
+.sidebarSectionContent p {
+  margin: 0;
+}
+
+.sidebarSectionContent p + * {
+  margin-top: 12px;
+}
+
+.sidebarSectionHeader {
+  display: flex;
+  align-items: center;
+}
+
+.sectionSubHeader {
+  margin-bottom: 8px;
+}
+
+.sidebarSection > .sidebarSubSection {
+  margin-top: 0;
+}
+
+.sidebarSubSection {
+  margin-top: 12px;
+}
+
+.sidebarSectionTitle {
+  display: flex;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.sidebarSectionIcons {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.tooltip {
+  max-width: 50ch;
+  background: #fff !important;
+  color: #333 !important;
+  border-color: #eee !important;
+  opacity: 1 !important;
+  box-shadow: 2px 2px 8px 0 rgba(0 ,0 ,0 ,0.25);
+  z-index: 99 !important;
+}
+
+.sidebarSection:hover .tooltipIcon {
+  display: block;
+}
+
+.tooltipIcon {
+  display: none;
+  margin-left: 8px;
+  margin-top: 3px;
+}
+
+.sidebarSection + .sidebarSection {
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.sidebarSection input[type=number] {
+  margin-left: 12px;
+}
+
+.enableSection {
+  margin: 12px 0;
+}
+
+.updateGraphButton {
+  margin-top: 12px;
+}
+
+
+.rangeFilter + * {
+  margin-top: 12px;
+}
+
+.rangeWrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.rangeSlider {
+  flex: 1;
+}
+
+.rangeValueMax, .rangeValueMin {
+  width: 40px;
+  width: 6ch;
+}
+
+.rangeValueMax {
+  margin-left: 12px;
+}
+
+.rangeValueMin {
+  text-align: right;
+  margin-right: 12px;
+}
+
+/* .rangeLabel {
+  margin: 8px 0;
+}
+
+.rangeFilter:first-child .rangeLabel {
+  margin-top: 0;
+} */
+
+.rangeResetIcon {
+  margin-left: 8px;
+}
+
+.statsTable th,
+.statsTable td {
+  padding-right: 4px;
+}
+
+.statsTable th + th,
+.statsTable td + td {
+  padding: 2px 8px;
+}

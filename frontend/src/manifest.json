@@ -1,0 +1,31 @@
+{
+  "name": "Community Graph Analysis",
+  "short_name": "Community Graph Analysis",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff",
+  "theme_color": "#2C6A98",
+  "icons": [
+      {
+          "src": "assets/icons/icon32.svg",
+          "sizes": "32x32",
+          "type": "image/svg+xml"
+      },
+      {
+        "src": "assets/icons/icon32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+          "src": "assets/icons/icon256.png",
+          "sizes": "256x256",
+          "type": "image/png"
+      },
+      {
+          "src": "assets/icons/icon512.png",
+          "sizes": "32x32",
+          "type": "image/png"
+      }
+  ]
+}

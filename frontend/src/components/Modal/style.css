@@ -1,0 +1,44 @@
+.modalWrapper {
+  position: absolute;
+  z-index: 3;
+  border: 1px solid rgb(172, 172, 172);
+  background: #fff;
+  display: flex !important;
+  flex-direction: column;
+  box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
+}
+
+.modalContent {
+  width: 100%;
+  max-height: calc(100% - 36px); /* Needed because of vis-network bug */
+  flex: 1;
+}
+
+.modalHandle {
+  width: 100%;
+  background: #eee;
+  cursor: move;
+  display: flex;
+  align-items: center;
+}
+
+.modalButton {
+  margin-left: auto;
+  border: 0;
+}
+
+.modalButton:hover {
+  background: #fff;
+}
+
+.modalTitle {
+  margin-left: 8px;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.icon {
+  font-size: 12px;
+}

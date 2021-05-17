@@ -1,0 +1,33 @@
+.wrapper {
+  width: 200px;
+  height: 300px;
+  overflow-y: auto;
+  background: #fff;
+  border: 1px solid #eee;
+}
+
+.listItem {
+  padding: 4px;
+  cursor: pointer;
+}
+
+.listItem.selected {
+  color: #ab54c3;
+  font-weight: bold;
+}
+
+.listItem:hover {
+  background-color: #eee;
+}
+
+.searchInput {
+  width: 100%;
+  font-size: 1rem;
+  border: 0;
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.searchInput:focus {
+
+}

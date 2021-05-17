@@ -1,0 +1,34 @@
+.wrapper {
+	padding: 12px;
+	width: 100%;
+  height: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+
+.description p:first-child {
+  margin-top: 0;
+}
+
+.loadingBox {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  width: 900px;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border: 1px solid #eee;
+}
+
+.loadingBox svg {
+  margin-right: 8px;
+}
