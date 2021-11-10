@@ -2,6 +2,9 @@
 
 A custom web-based social network and graph analysis tool developed as part of my master thesis titled "Graph-based Analyses of Online Community Structures".
 
+![frame_safari_light](https://user-images.githubusercontent.com/9062294/141122773-63a0146f-03ec-4f52-adf9-0faab6c7d68f.png)
+
+
 ## Overview
 
 This is a monorepo holding a Python back end in `./server` and a Preact front end in `./frontend`. The `scripts` folder contains several jupyter notebooks, the PostgreSQL 13 database backup (without data) and other tools.
